@@ -7,10 +7,10 @@
 //
 
 #include <iostream>
+#include "copy.c"
 using namespace std;
 int main(int argc, const char * argv[]) {
     // insert code here...
-    cout << "Hello, Github !\n";
-    cout << "jolly Kuo first Github!\n"<<endl;
+    copy();
     return 0;
 }
