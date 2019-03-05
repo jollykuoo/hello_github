@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 void copy(){
     FILE * file;
@@ -28,7 +29,5 @@ void copy(){
                }
     str[i]='\0';
     printf("%s\n",str);
-    free(FILENAME);
-    free(str);
     fclose(file);
 }
